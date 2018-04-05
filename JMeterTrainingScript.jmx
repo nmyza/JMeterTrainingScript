@@ -53,6 +53,11 @@
             <stringProp name="Argument.value">${__P(RESULTS_FILE,)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="DURATION" elementType="Argument">
+            <stringProp name="Argument.name">DURATION</stringProp>
+            <stringProp name="Argument.value">${__P(DURATION,[DURATION])}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </Arguments>
       <hashTree/>
@@ -224,11 +229,11 @@
       </hashTree>
       <kg.apc.jmeter.threads.UltimateThreadGroup guiclass="kg.apc.jmeter.threads.UltimateThreadGroupGui" testclass="kg.apc.jmeter.threads.UltimateThreadGroup" testname="jp@gc - Ultimate Thread Group" enabled="true">
         <collectionProp name="ultimatethreadgroupdata">
-          <collectionProp name="-958535374">
-            <stringProp name="48625">100</stringProp>
+          <collectionProp name="1877387341">
+            <stringProp name="498135019">${THREADS}</stringProp>
             <stringProp name="0">0</stringProp>
-            <stringProp name="30">30</stringProp>
-            <stringProp name="1567">10</stringProp>
+            <stringProp name="668786489">${RAMPUP}</stringProp>
+            <stringProp name="-1798311310">${DURATION}</stringProp>
             <stringProp name="10">10</stringProp>
           </collectionProp>
         </collectionProp>
